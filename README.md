@@ -2,13 +2,14 @@
 
 # Plotting Open Philanthropy data
 
-Quickly made jupyter notebooks for making simple graphics about Open Philanthropy funding. Data automatically downloaded from Open Philanthropy's [Grant Database](https://www.openphilanthropy.org/giving/grants).
+Quickly made jupyter notebooks for making simple graphics about Open Philanthropy funding. Data automatically downloaded from Open Philanthropy's [Grants Database](https://www.openphilanthropy.org/giving/grants).
 
 ## Available graphs
 - All funding Open Philanthropy has given since the start of their database, separated by Focus Area.
 - Distribution of funding accross the 6 largest Focus Areas for every year.
 - Funding per Focus Area for a given year (by default 2021, you'll have to make your own or ask me if you want something else).
 - Funding per Focus Area from the beginning of 2021 to the current day.
+- Feel free to leave an issue request if you'd like some other graph
 
 ## How to get and edit graphs
 1. A github action builds and commits a default set into the directory `pngs`. In some cases these might be out of date, depending on when the last commit was.
