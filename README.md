@@ -2,7 +2,7 @@
 
 # Plotting Open Philanthropy data
 
-Quickly made jupyter notebooks for making simple graphics about Open Philanthropy funding. Data automatically downloaded from Open Philanthropy's ![Grant Database](https://www.openphilanthropy.org/giving/grants).
+Quickly made jupyter notebooks for making simple graphics about Open Philanthropy funding. Data automatically downloaded from Open Philanthropy's [Grant Database](https://www.openphilanthropy.org/giving/grants).
 
 ## Available graphs
 - All funding Open Philanthropy has given since the start of their database, separated by Focus Area.
@@ -13,6 +13,6 @@ Quickly made jupyter notebooks for making simple graphics about Open Philanthrop
 ## How to get and edit graphs
 1. A github action builds and commits a default set into the directory `pngs`. In some cases these might be out of date, depending on when the last commit was.
 
-2. If you want to make changes, the simplest way is to launch a binderhub based on this repository: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vlipiainen/openphil-analysis-graphics/HEAD). There you can edit the notebooks as you want and get the graphics you want. Bear in mind that any changes will be lost after your session closes.
+2. If you want to make changes, the simplest way is to launch a binderhub based on this repository: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vlipiainen/openphil-analysis-graphics/HEAD) There you can edit the notebooks as you wish and download the results. Bear in mind that any changes will be lost after your session closes.
 
-3. All the jupyter notebooks are meant to be self-contained, so you can copy any of them to your computer and edit as you wish. The file `requirements.txt` describes all necessary dependencies (they can be installed via `pip install requirements.txt`).
+3. All the jupyter notebooks are meant to be self-contained, so you can copy any of them to your computer and edit as you wish. The file `requirements.txt` describes all necessary dependencies (they can be installed via `pip install -r requirements.txt`).
