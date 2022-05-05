@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir -p pngs
           shopt -s nullglob
-          for i in *; do
+          for i in *.ipynb; do
             jupyter nbconvert ${i} --to script --output ${i}
             python ${i}.py
           done
