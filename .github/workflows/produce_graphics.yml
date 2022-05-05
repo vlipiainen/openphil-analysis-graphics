@@ -32,7 +32,7 @@ jobs:
           mkdir -p pngs
           shopt -s nullglob
           for i in *; do
-            jupyter nbconvert ${i} --to script --output ${i}.py
+            jupyter nbconvert ${i} --to script --output ${i}
             python ${i}.py
           done
 
