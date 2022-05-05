@@ -14,6 +14,6 @@ Quickly made jupyter notebooks for making simple graphics about Open Philanthrop
 ## How to get and edit graphs
 1. A github action builds and commits a default set into the directory `pngs`. In some cases these might be out of date, depending on when the last commit was.
 
-2. If you want to make changes, the simplest way is to launch a binderhub based on this repository: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vlipiainen/openphil-analysis-graphics/HEAD) There you can edit the notebooks as you wish and download the results. Bear in mind that any changes will be lost after your session closes.
+2. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vlipiainen/openphil-analysis-graphics/HEAD) If you want to make changes, the simplest way is to launch a binderhub based on this repository:  There you can edit the notebooks as you wish and download the results. Bear in mind that any changes will be lost after your session closes.
 
 3. All the jupyter notebooks are meant to be self-contained, so you can copy any of them to your computer and edit as you wish. The file `requirements.txt` describes all necessary dependencies (they can be installed via `pip install -r requirements.txt`).
